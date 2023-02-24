@@ -1,0 +1,105 @@
+html {
+ height: 100%;
+width: 100%;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+body{
+    background-color: lightgray;
+    background-image: url(https://img.freepik.com/free-vector/elegant-white-wallpaper-with-golden-details_23-2149095008.jpg) ;
+}
+
+.img {
+   
+    border-radius: 50%;
+    border-style: dotted;
+    margin:auto;
+    width: 50%;
+    display: block;
+}
+#aboutme {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#contactme{
+    color: black;
+    text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mywork{
+     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit {
+    background: rgb(163, 160, 160);
+	color: black;
+    border-radius: 20px;
+	border-color: #eee;
+	height: 30px;
+	width: 60px;
+	font-size: 10px;
+    font-family: georgia;
+	text-shadow: none;
+    cursor:pointer;
+    border: 0;
+    padding: 0;
+    transition: all 0.3s;
+    font-weight: 200px;
+    letter-spacing: 2px;
+}
+
+.messageme {
+    
+    color: black;
+    font-weight: 500px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    line-height: 22px;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    text-align: center;
+}
+
+footer{
+    background-color: transparent;
+    text-align: center;
+}
+
+.fa-instagram {
+    background:whitesmoke;
+    color: grey;
+  }
+  .fa-linkedin {
+    background: whitesmoke;
+    color: grey;
+  }
+  .fa-twitter {
+    background: whitesmoke;
+    color: grey;
+  }
+  #grid{
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+  }
+  
